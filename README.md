@@ -36,7 +36,7 @@ rustler::init!("librs", [truly_random]);
 
 ```erlang
 -module(librs).
--export([truly_random/0, init/0]).
+-export([truly_random/0]).
 -nifs([truly_random/0]).
 -on_load(init/0).
 
