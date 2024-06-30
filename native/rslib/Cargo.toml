@@ -1,0 +1,10 @@
+[package]
+name = "rslib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustler = "0.33.0"
+
+[lib]
+crate-type = ["dylib"]
