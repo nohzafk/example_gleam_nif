@@ -2,6 +2,8 @@
 
 Example project of Gleam calling Rust code via Rustler, on Apple Silicon MacOS.
 
+Adjust from code example from https://www.jonashietala.se/blog/2024/01/11/exploring_the_gleam_ffi/
+
 ## Create Rust project
 ```sh
 mkdir native
